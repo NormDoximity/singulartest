@@ -11,6 +11,14 @@
 		216367DA2BBF50A600D66905 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216367D92BBF50A600D66905 /* ContentView.swift */; };
 		216367DC2BBF50A700D66905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216367DB2BBF50A700D66905 /* Assets.xcassets */; };
 		216367DF2BBF50A700D66905 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216367DE2BBF50A700D66905 /* Preview Assets.xcassets */; };
+		216367E72BBF50CD00D66905 /* Singular in Frameworks */ = {isa = PBXBuildFile; productRef = 216367E62BBF50CD00D66905 /* Singular */; };
+		216367EF2BBF530000D66905 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367ED2BBF526A00D66905 /* libsqlite3.0.tbd */; };
+		216367F12BBF531700D66905 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367F02BBF530B00D66905 /* libz.tbd */; };
+		216367F22BBF532700D66905 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367E92BBF520D00D66905 /* Security.framework */; };
+		216367F32BBF533E00D66905 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367EB2BBF522200D66905 /* AdServices.framework */; };
+		216367F52BBF534500D66905 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367F42BBF534500D66905 /* iAd.framework */; };
+		216367F72BBF534F00D66905 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367F62BBF534F00D66905 /* StoreKit.framework */; };
+		216367F92BBF535800D66905 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216367F82BBF535800D66905 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		216367D92BBF50A600D66905 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		216367DB2BBF50A700D66905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216367DE2BBF50A700D66905 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		216367E92BBF520D00D66905 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		216367EB2BBF522200D66905 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		216367ED2BBF526A00D66905 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		216367EE2BBF527500D66905 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		216367F02BBF530B00D66905 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		216367F42BBF534500D66905 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		216367F62BBF534F00D66905 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		216367F82BBF535800D66905 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216367F32BBF533E00D66905 /* AdServices.framework in Frameworks */,
+				216367F72BBF534F00D66905 /* StoreKit.framework in Frameworks */,
+				216367EF2BBF530000D66905 /* libsqlite3.0.tbd in Frameworks */,
+				216367F12BBF531700D66905 /* libz.tbd in Frameworks */,
+				216367F52BBF534500D66905 /* iAd.framework in Frameworks */,
+				216367F22BBF532700D66905 /* Security.framework in Frameworks */,
+				216367F92BBF535800D66905 /* SystemConfiguration.framework in Frameworks */,
+				216367E72BBF50CD00D66905 /* Singular in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +61,7 @@
 			children = (
 				216367D62BBF50A600D66905 /* SingularTest */,
 				216367D52BBF50A600D66905 /* Products */,
+				216367E82BBF520D00D66905 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +92,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		216367E82BBF520D00D66905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216367F82BBF535800D66905 /* SystemConfiguration.framework */,
+				216367F62BBF534F00D66905 /* StoreKit.framework */,
+				216367F42BBF534500D66905 /* iAd.framework */,
+				216367F02BBF530B00D66905 /* libz.tbd */,
+				216367EE2BBF527500D66905 /* libz.1.tbd */,
+				216367ED2BBF526A00D66905 /* libsqlite3.0.tbd */,
+				216367EB2BBF522200D66905 /* AdServices.framework */,
+				216367E92BBF520D00D66905 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +123,9 @@
 			dependencies = (
 			);
 			name = SingularTest;
+			packageProductDependencies = (
+				216367E62BBF50CD00D66905 /* Singular */,
+			);
 			productName = SingularTest;
 			productReference = 216367D42BBF50A600D66905 /* SingularTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,9 @@
 				Base,
 			);
 			mainGroup = 216367CB2BBF50A600D66905;
+			packageReferences = (
+				216367E52BBF50CD00D66905 /* XCRemoteSwiftPackageReference "Singular-iOS-SDK" */,
+			);
 			productRefGroup = 216367D52BBF50A600D66905 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +390,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		216367E52BBF50CD00D66905 /* XCRemoteSwiftPackageReference "Singular-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/singular-labs/Singular-iOS-SDK";
+			requirement = {
+				kind = exactVersion;
+				version = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		216367E62BBF50CD00D66905 /* Singular */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 216367E52BBF50CD00D66905 /* XCRemoteSwiftPackageReference "Singular-iOS-SDK" */;
+			productName = Singular;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 216367CC2BBF50A600D66905 /* Project object */;
 }
